@@ -8,6 +8,7 @@ require("dotenv").config();
 // CORS Configuration
 const corsOptions = {
   origin: "*",
+  method:["GET","POST","DELETE"],
   credentials: true,
   optionSuccessStatus: 200,
 };
